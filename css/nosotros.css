@@ -1,0 +1,32 @@
+.nosotros {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.pnosotros {
+    max-width: 500px;
+    margin-bottom: 14px;
+}
+
+.pnosotros>br {
+    margin: 3px;
+}
+
+.nosotrostitle {
+    margin-bottom: 20px;
+    font-size: 46px;
+
+}
+
+.imgnosotros {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 2%;
+}
+
+.spanimgnosotros {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
