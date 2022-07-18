@@ -1,0 +1,102 @@
+.gridimg {
+    margin-top: 50px;
+    display: grid;
+    padding: 0;
+    /* gap: 10px; */
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100vw;
+    color: #0d0d0d;
+    font-size: 30px;
+    text-align: center;
+    grid-template-areas: "uno""dos""cuatro""tres""cinco""seis";
+
+}
+
+.griddiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.griddiv h1 {
+    font-size: 40px;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.griddiv p {
+    font-size: 20px;
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+
+.griddivitem1 {
+
+    background-color: #fffdde;
+    grid-area: uno;
+}
+
+.griddivitem2 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("img/grid1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: dos;
+}
+
+.griddivitem3 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("img/grid2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 90%;
+    grid-area: tres;
+}
+
+.griddivitem4 {
+    background-color: #cee8dc;
+    grid-area: cuatro;
+}
+
+.griddivitem5 {
+    background-color: #ffe6cf;
+    grid-area: cinco;
+}
+
+.griddivitem5>p {
+    font-size: 18px;
+}
+
+.griddivitem6 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("img/grid3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 70%;
+    grid-area: seis;
+}
+
+
+@media (min-width: 950px) {
+    .gridimg {
+        display: grid;
+        padding: 0;
+        /* gap: 10px; */
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 50vw;
+        color: var(--blacktext);
+        font-size: 30px;
+        text-align: center;
+        grid-template-areas: "uno dos""tres cuatro""cinco seis";
+
+    }
+}

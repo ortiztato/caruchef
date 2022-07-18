@@ -1,5 +1,6 @@
 .nosotros {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     margin-top: 40px;
 }
@@ -7,6 +8,7 @@
 .pnosotros {
     max-width: 500px;
     margin-bottom: 14px;
+    font-weight: 400;
 }
 
 .pnosotros>br {
@@ -16,17 +18,45 @@
 .nosotrostitle {
     margin-bottom: 20px;
     font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 
 }
 
 .imgnosotros {
-    width: 80%;
+    width: 100%;
     max-width: 300px;
     border-radius: 2%;
 }
 
 .spanimgnosotros {
     position: relative;
-    align-items: center;
+    align-self: center;
     text-align: center;
+    margin-top: 30px;
+
+}
+
+@media (min-width: 950px) {
+    .nosotros {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+
+    .imgnosotros {
+        width: 80%;
+
+    }
+
+    .spanimgnosotros {
+        position: relative;
+        align-self: center;
+        text-align: center;
+        margin-top: 40px;
+
+    }
+
+
 }
