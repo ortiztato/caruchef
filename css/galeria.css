@@ -1,0 +1,30 @@
+.galeria {
+    padding: 0;
+    color: #0d0d0d;
+
+}
+
+.galtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    /* font-size: 46px; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 600; */
+    text-align: center;
+
+}
+
+.galgrid {
+    display: grid;
+    padding: 0;
+    /* gap: 10px; */
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100vw;
+    color: #0d0d0d;
+    font-size: 30px;
+    text-align: center;
+    /* grid-template-areas: "uno""dos""cuatro""tres""cinco""seis""ocho""siete"; */
+}

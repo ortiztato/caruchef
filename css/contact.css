@@ -1,7 +1,7 @@
 .contacts {
   display: flex;
   flex-direction: column;
-  min-height: 60vh;
+  min-height: 90vh;
   color: #0d0d0d;
 
 
@@ -62,12 +62,12 @@
 
 @media (min-width: 950px) {
   .contact {
-    min-height: 45vh;
+    min-height: 10vh;
   }
 
   .contact-title {
     font-size: 35px;
-    margin: 35px 0;
+    margin: 45px 0;
   }
 
   .contact-date {

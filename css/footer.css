@@ -7,9 +7,9 @@
   justify-content: center;
   vertical-align: middle;
   background-color: #fff8c170;
-  color: #0b5b8c;
+  color: #101010;
   display: flex;
-  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #foot p {

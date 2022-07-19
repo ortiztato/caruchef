@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .pnosotros {
@@ -42,7 +42,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
     .imgnosotros {

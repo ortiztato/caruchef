@@ -3,7 +3,7 @@ const openMenuBtn = document.querySelector(".open-menu");
 const closeMenuBtn = document.querySelector(".close-menu");
 const contactbtn = document.querySelector("#contactbtn");
 const serviciosbtn = document.querySelector("#serviciosbtn");
-const locationbtn = document.querySelector("#locationbtn");
+const cateringbtn = document.querySelector("#cateringbtn");
 
 
 function toggleMenu() {
@@ -13,6 +13,6 @@ function toggleMenu() {
 openMenuBtn.addEventListener("click", toggleMenu);
 closeMenuBtn.addEventListener("click", toggleMenu);
 contactbtn.addEventListener("click", toggleMenu);
-locationbtn.addEventListener("click", toggleMenu);
 serviciosbtn.addEventListener("click", toggleMenu);
+cateringbtn.addEventListener("click", toggleMenu);
 
