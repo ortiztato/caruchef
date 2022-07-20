@@ -23,6 +23,10 @@
   background-color: #cee8dc3e;
 }
 
+.skills-skill>img {
+  height: 20px;
+}
+
 .skills-list {
   list-style: none;
   padding: 0;
@@ -40,5 +44,9 @@
   .skills-skill {
     font-size: 18px;
     margin: 20px;
+  }
+
+  .skills-skill>img {
+    height: 25px;
   }
 }
