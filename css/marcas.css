@@ -13,7 +13,7 @@
   margin-bottom: 30px;
 }
 
-.skills-skill {
+/* .skills-skill {
   font-size: 16px;
   font-weight: 500;
   box-shadow: 0 4px 10px #000000;
@@ -21,7 +21,17 @@
   padding: 0.5em 0.7em;
   margin: 10px;
   background-color: #cee8dc3e;
+} */
+.skills-skill {
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px #0000001d;
+  border-radius: 5px;
+  padding: 0.5em 0.7em;
+  margin: 10px;
+  background-color: #cee8dc10;
 }
+
 
 .skills-skill>img {
   height: 20px;

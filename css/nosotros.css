@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: 80px;
+    text-align: center;
 }
 
 .pnosotros {
@@ -27,10 +28,11 @@
     width: 100%;
     max-width: 300px;
     border-radius: 2%;
+    /*  margin-top: 30px; */
 }
 
 .spanimgnosotros {
-    position: relative;
+    /* position: relative; */
     align-self: center;
     text-align: center;
     margin-top: 30px;
@@ -43,10 +45,11 @@
         flex-direction: row;
         justify-content: space-evenly;
         margin-top: 80px;
+        text-align: left;
     }
 
     .imgnosotros {
-        width: 80%;
+        width: 90%;
 
     }
 
@@ -54,7 +57,7 @@
         position: relative;
         align-self: center;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 15px;
 
     }
 
