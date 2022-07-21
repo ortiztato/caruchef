@@ -46,7 +46,7 @@
 .griddiv p {
     font-size: 20px;
     align-self: flex-start;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .griddivitem1 {
@@ -90,8 +90,12 @@
     grid-area: cinco;
 }
 
+.griddivitem5>h1 {
+    margin-bottom: 10px;
+}
+
 .griddivitem5>p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .griddivitem6 {
@@ -122,8 +126,17 @@
     padding-top: 20px;
 }
 
+.griddivitem8>h1 {
+    margin-bottom: 10px;
+}
+
+.griddivitem8>h1>br {
+    margin: 0px;
+}
+
+
 .griddivitem8>p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -151,5 +164,27 @@
         margin-top: 80px;
         margin-bottom: 40px;
 
+    }
+
+    .griddivitem5 {
+        /* background-color: #ffe6cf; */
+
+        background-color: #fffdde;
+        padding-top: 20px;
+        grid-area: cinco;
+    }
+
+    .griddivitem5>p {
+        font-size: 18px;
+    }
+
+    .griddivitem8 {
+        background-color: #f0ebe3;
+        grid-area: ocho;
+        padding-top: 20px;
+    }
+
+    .griddivitem8>p {
+        font-size: 18px;
     }
 }
