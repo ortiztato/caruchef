@@ -8,9 +8,9 @@
 
 .pnosotros {
     max-width: 500px;
-    margin-bottom: 14px;
+    margin: 0 auto 14px;
     font-weight: 200;
-    /* font-family: 'circularm'; */
+
 }
 
 .pnosotros>br {
@@ -20,7 +20,7 @@
 .nosotrostitle {
     margin-bottom: 20px;
     font-size: 46px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 600;
     text-align: center;
 
@@ -63,4 +63,11 @@
     }
 
 
+}
+
+@media (max-width: 390px) {
+    .pnosotros br {
+        display: none;
+        padding-bottom: 20px;
+    }
 }

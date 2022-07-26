@@ -5,6 +5,7 @@ const contactbtn = document.querySelector("#contactbtn");
 const galeriabtn = document.querySelector("#galeriabtn");
 const cateringbtn = document.querySelector("#cateringbtn");
 const nosotrosbtn = document.querySelector("#nosotrosbtn");
+const clientesbtn = document.querySelector("#clientesbtn");
 
 
 function toggleMenu() {
@@ -17,4 +18,5 @@ contactbtn.addEventListener("click", toggleMenu);
 galeriabtn.addEventListener("click", toggleMenu);
 cateringbtn.addEventListener("click", toggleMenu);
 nosotrosbtn.addEventListener("click", toggleMenu);
+clientesbtn.addEventListener("click", toggleMenu);
 

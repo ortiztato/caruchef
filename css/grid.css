@@ -20,7 +20,7 @@
     margin-top: 100px;
     margin-bottom: 40px;
     /* font-size: 46px; */
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     /* font-weight: 600; */
     text-align: center;
 
@@ -39,7 +39,7 @@
 .griddiv h1 {
     font-size: 40px;
     align-self: center;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     margin-bottom: 30px;
 }
 
