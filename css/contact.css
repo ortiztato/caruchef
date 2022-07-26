@@ -1,7 +1,7 @@
 .contacts {
   display: flex;
   flex-direction: column;
-  min-height: 90vh;
+  min-height: 88vh;
   color: #0d0d0d;
 
 
@@ -58,15 +58,16 @@
   color: var(--textcolor)
 }
 
-.contacttextubi {
-  font-size: 14px;
+.contacttext {
+  font-size: 16px;
+  line-height: normal;
 }
 
 
 
 @media (min-width: 950px) {
-  .contact {
-    min-height: 10vh;
+  .contacts {
+    min-height: 82vh;
   }
 
   .contact-title {
