@@ -84,7 +84,15 @@
   font-weight: 700;
 }
 
+#logomenubtn {
+  display: none;
+}
+
 @media (max-width: 950px) {
+
+  #logomenubtn {
+    display: block;
+  }
 
   /* Menu */
   .menu {
