@@ -39,15 +39,15 @@
     .imgfondo1 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo1h.jpg");
+                rgba(0, 0, 0, 0.5)), url("img/fondo5h.jpg");
         background-position: 100% 60%;
     }
 
     .imgfondo2 {
-        background-position: 100% 100%;
+        background-position: 100% 60%;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo2h.jpg");
+                rgba(0, 0, 0, 0.5)), url("img/fondo8h.jpg");
     }
 
     .imgfondo3 {
@@ -58,10 +58,17 @@
     }
 
     .imgfondo4 {
-        background-position: 100% 20%;
+        background-position: 100% 50%;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo4h.jpg");
+                rgba(0, 0, 0, 0.5)), url("img/fondo1h.jpg");
     }
+
+    /* .imgfondo4 {
+        background-position: 100% 100%;
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("img/fondo2h.jpg");
+    } */
 
 }
