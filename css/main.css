@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'contax';
-  src: url('/fonts/Contax.Sans.W01.65.Medium.ttf');
+  src: url('/fonts/Contax.Sans.W01.65.Medium.ttf') format('truetype');
 }
 
 html {
