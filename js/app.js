@@ -6,7 +6,7 @@ const galeriabtn = document.querySelector("#galeriabtn");
 const cateringbtn = document.querySelector("#cateringbtn");
 const nosotrosbtn = document.querySelector("#nosotrosbtn");
 const clientesbtn = document.querySelector("#clientesbtn");
-
+const logomenubtn = document.querySelector("#logomenubtn");
 
 function toggleMenu() {
   menu.classList.toggle("menu_opened");
@@ -19,4 +19,4 @@ galeriabtn.addEventListener("click", toggleMenu);
 cateringbtn.addEventListener("click", toggleMenu);
 nosotrosbtn.addEventListener("click", toggleMenu);
 clientesbtn.addEventListener("click", toggleMenu);
-
+logomenubtn.addEventListener("click", toggleMenu);
