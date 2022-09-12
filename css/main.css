@@ -16,14 +16,20 @@
   src: url('/fonts/Circular-Std-Medium.otf');
 } */
 
-/* @font-face {
+@font-face {
   font-family: 'contax';
   src: url('/fonts/Contax.Sans.W01.65.Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-} */
+}
 
-@import url(//db.onlinewebfonts.com/c/6c9f39007951c3c2cc33f56e50b8ef88?family=ContaxSansW01-65Medium);
+/* @import url(//db.onlinewebfonts.com/c/6c9f39007951c3c2cc33f56e50b8ef88?family=ContaxSansW01-65Medium); */
+
+/* @font-face {
+  font-family: "ContaxSansW01-65Medium";
+  src: url("//db.onlinewebfonts.com/t/6c9f39007951c3c2cc33f56e50b8ef88.eot");
+  src: url("//db.onlinewebfonts.com/t/6c9f39007951c3c2cc33f56e50b8ef88.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6c9f39007951c3c2cc33f56e50b8ef88.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6c9f39007951c3c2cc33f56e50b8ef88.woff") format("woff"), url("//db.onlinewebfonts.com/t/6c9f39007951c3c2cc33f56e50b8ef88.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6c9f39007951c3c2cc33f56e50b8ef88.svg#ContaxSansW01-65Medium") format("svg");
+} */
 
 @font-face {
   font-family: "ContaxSansW01-65Medium";
@@ -60,8 +66,8 @@ body {
   /* font-family: 'Caveat', cursive; */
   /* font-family: 'Ubuntu Condensed', sans-serif; */
   /* font-family: 'Quicksand', sans-serif; */
-  /* font-family: 'contax'; */
-  font-family: "ContaxSansW01-65Medium";
+  font-family: 'contax';
+  /* font-family: "ContaxSansW01-65Medium"; */
   /* background-color: var(--basecolor); */
   color: var(--blacktext);
   /* padding-top: 70px; */
