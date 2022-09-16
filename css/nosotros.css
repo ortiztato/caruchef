@@ -6,6 +6,25 @@
     text-align: justify;
 }
 
+
+
+.nosotrostitle {
+    margin-bottom: 20px;
+    font-size: 46px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.nosotros h1 {
+    margin: 0 0 5px;
+    display: inline-block;
+    width: auto;
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .pnosotros {
     max-width: 500px;
     margin: 0 auto 14px;
@@ -17,14 +36,6 @@
     margin: 0px;
 }
 
-.nosotrostitle {
-    margin-bottom: 20px;
-    font-size: 46px;
-    /* font-family: 'Montserrat', sans-serif; */
-    font-weight: 600;
-    text-align: center;
-
-}
 
 .imgnosotros {
     width: 100%;
