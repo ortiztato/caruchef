@@ -39,7 +39,7 @@
     .imgfondo1 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo5h.jpg");
+                rgba(0, 0, 0, 0.5)), url("img/fondoh1.jpg");
         background-position: 100% 60%;
     }
 
@@ -47,21 +47,21 @@
         background-position: 100% 60%;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo8h.jpg");
+                rgba(0, 0, 0, 0.5)), url("img/fondoh2.jpg");
     }
 
     .imgfondo3 {
         background-position: 100% 30%;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo3h.jpg");
+                rgba(0, 0, 0, 0.5)), url("img/fondoh3.jpg");
     }
 
     .imgfondo4 {
         background-position: 100% 50%;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo1h.jpg");
+                rgba(0, 0, 0, 0.5)), url("img/fondoh4.jpg");
     }
 
     /* .imgfondo4 {
