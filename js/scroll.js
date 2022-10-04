@@ -1,9 +1,9 @@
 
 
-/* window.onscroll = () => {
+window.onscroll = () => {
 
-    if (window.scrollY >= window.innerHeight + 2500) {
-        document.querySelector(".galeria").style.cssText = "display: block";
+    if (window.scrollY >= window.innerHeight * 0.2) {
+        document.querySelector(".wappicon").style.cssText = "display: block";
     }
 
-} */
+}

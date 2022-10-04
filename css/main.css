@@ -61,6 +61,21 @@ br {
   margin: 10px 0;
 }
 
+.wappicon {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  bottom: 2rem;
+  right: 2rem;
+  /* background-color: #00000027; */
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  /* box-shadow: 2px 2px 3px #999; */
+  z-index: 100;
+  display: none;
+
+}
 
 
 @media (min-width: 950px) {
