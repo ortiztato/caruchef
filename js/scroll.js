@@ -1,4 +1,4 @@
-
+/* 
 
 window.onscroll = () => {
 
@@ -6,4 +6,4 @@ window.onscroll = () => {
         document.querySelector(".wappicon").style.cssText = "display: block";
     }
 
-}
+} */
