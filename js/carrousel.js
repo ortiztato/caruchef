@@ -1,3 +1,5 @@
+// script for the front page carrousel
+
 
 let indice = 1;
 muestraSlides(indice);

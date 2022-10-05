@@ -1,3 +1,5 @@
+// script to give display to an element when scrolling down
+
 /* 
 
 window.onscroll = () => {

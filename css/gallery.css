@@ -1,3 +1,42 @@
+.galeria {
+    padding: 0;
+    color: #0d0d0d;
+    /* display: none; */
+
+}
+
+.galtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    /* font-size: 46px; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-weight: 600; */
+    text-align: center;
+
+}
+
+
+
+
+@media (min-width: 950px) {
+
+
+    .galeria {
+        padding: 50px;
+    }
+
+    .galtitle {
+
+        margin-top: 80px;
+        margin-bottom: 40px;
+
+    }
+}
+
+
 #index-gallery {
     display: grid;
     grid-template-columns: 1fr;
