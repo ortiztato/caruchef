@@ -17,8 +17,8 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 45px;
-    margin-top: 100px;
-    margin-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     /* font-size: 46px; */
     /* font-family: 'Montserrat', sans-serif; */
     /* font-weight: 600; */
@@ -47,6 +47,7 @@
     font-size: 20px;
     align-self: flex-start;
     margin-bottom: 15px;
+    padding: 0 15px;
 }
 
 .griddivitem1 {
@@ -61,7 +62,7 @@
             rgba(0, 0, 0, 0.1)), url("img/grid1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 75% center;
     grid-area: dos;
 }
 
@@ -159,11 +160,7 @@
     }
 
     .cateringtitle {
-
         font-size: 45px;
-        margin-top: 80px;
-        margin-bottom: 40px;
-
     }
 
     .griddivitem5 {

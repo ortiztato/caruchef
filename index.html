@@ -1,305 +1,623 @@
 <!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="google-site-verification"
+			content="aOUpQA9toG6az_QHCVoLKcyAw4u2PxeW5x8Z5DAp6Iw"
+		/>
+		<title>Caruchef</title>
+		<meta
+			name="description"
+			content="Somos un Catering especializado en eventos. Ofrecemos un servicio 360, enfocado en clientes corporativos y en eventos sociales."
+		/>
+		<link rel="icon" type="image/x-icon" href="/img/carufavicon.png" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+		<link rel="stylesheet" href="css/portada.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/contact.css" />
+		<link rel="stylesheet" href="css/imgfondo.css" />
+		<link rel="stylesheet" href="css/carrousel.css" />
+		<link rel="stylesheet" href="css/nosotros.css" />
+		<link rel="stylesheet" href="css/grid.css" />
+		<link rel="stylesheet" href="css/marcas.css" />
+		<link rel="stylesheet" href="css/galeria.css" />
+		<link rel="stylesheet" href="css/gallery.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="aOUpQA9toG6az_QHCVoLKcyAw4u2PxeW5x8Z5DAp6Iw" />
-  <title>Caruchef</title>
-  <meta name="description"
-    content="Somos un Catering especializado en eventos. Ofrecemos un servicio 360, enfocado en clientes corporativos y en eventos sociales.">
-  <link rel="icon" type="image/x-icon" href="/img/carufavicon.png">
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/navbar.css" />
-  <link rel="stylesheet" href="css/portada.css" />
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/contact.css">
-  <link rel="stylesheet" href="css/imgfondo.css">
-  <link rel="stylesheet" href="css/carrousel.css">
-  <link rel="stylesheet" href="css/nosotros.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/marcas.css">
-  <link rel="stylesheet" href="css/galeria.css">
-  <link rel="stylesheet" href="css/gallery.css">
+		<script defer src="js/app.js"></script>
+		<script defer src="js/carrousel.js"></script>
+		<script defer src="js/scroll.js"></script>
+	</head>
 
-  <script defer src="js/app.js"></script>
-  <script defer src="js/carrousel.js"></script>
-  <script defer src="js/scroll.js"></script>
+	<body>
+		<header class="topheader">
+			<nav class="topnav">
+				<a href="#" class="logo">
+					<img height="30" src="img/logonav.png" alt="logo" />
+					<div class="logotype"></div>
+				</a>
+				<button class="open-menu" aria-label="Abrir menú">
+					<img height="30px" src="img/hamburger-icon.svg" alt="abrir menú" />
+				</button>
+				<ul class="menu">
+					<button class="close-menu" aria-label="Cerrar menú">
+						<img src="img/close-icon.svg" alt="cerrar menú" />
+					</button>
+					<li>
+						<a href="#portada" id="logomenubtn"
+							><img height="70" src="img/logonav.png" alt="logo"
+						/></a>
+					</li>
+					<li><a href="#nosotros" id="nosotrosbtn">Nosotros</a></li>
+					<li><a href="#catering" id="cateringbtn">Catering</a></li>
+					<li><a href="#galeria" id="galeriabtn">Galeria</a></li>
+					<li><a href="#clientes" id="clientesbtn">Clientes</a></li>
+					<li><a href="#contact" id="contactbtn">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
 
+		<a name="portada"></a>
+		<section id="portada" class="portada">
+			<div class="slide-contenedor">
+				<div class="direcciones">
+					<a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+					<a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+				</div>
+				<div class="barras">
+					<span class="barra active" onclick="posicionSlide(1)"></span>
+					<span class="barra" onclick="posicionSlide(2)"></span>
+					<span class="barra" onclick="posicionSlide(3)"></span>
+					<span class="barra" onclick="posicionSlide(4)"></span>
+				</div>
+				<div class="imgcontainer">
+					<img class="logoportada" src="img/logosinfondo.png" alt="logo" />
+				</div>
+			</div>
+		</section>
+		<a name="nosotros"></a>
+		<section class="nosotros">
+			<div class="nosotrostexto">
+				<h2 class="nosotrostitle">Nosotros</h2>
+				<h1>Somos Caruchef</h1>
+				<p class="pnosotros">
+					Una empresa familiar que surge de nuestra profunda pasión por la
+					gastronomía y del compromiso de un equipo que pone su energía y
+					corazón en cada plato.
+					<br />
+				</p>
 
+				<p class="pnosotros">
+					La chef Carina, nuestra madre, lidera la cocina con su experiencia,
+					mientras que sus hijos, Gonzalo y Sebastián, aportamos nuestra
+					dedicación y entusiasmo para hacer realidad cada evento.
+				</p>
 
-</head>
+				<p class="pnosotros">
+					Nuestra filosofía se basa en crear un ambiente cercano y amigable,
+					donde la energía con la que cocinamos y el amor por lo que hacemos se
+					reflejan en cada detalle de nuestra propuesta culinaria.
+				</p>
 
-<body>
-  <header class="topheader">
-    <nav class="topnav">
-      <a href="#" class="logo">
-        <img height="30" src="img/logonav.png" alt="logo" />
-        <div class="logotype">
-        </div>
-      </a>
-      <button class="open-menu" aria-label="Abrir menú">
-        <img height="30px" src="img/hamburger-icon.svg" alt="abrir menú" />
-      </button>
-      <ul class="menu">
-        <button class="close-menu" aria-label="Cerrar menú">
-          <img src="img/close-icon.svg" alt="cerrar menú" />
-        </button>
-        <li><a href="#portada" id="logomenubtn"><img height="70" src="img/logonav.png" alt="logo" /></a></li>
-        <li><a href="#nosotros" id="nosotrosbtn">Nosotros</a></li>
-        <li><a href="#catering" id="cateringbtn">Catering</a></li>
-        <li><a href="#galeria" id="galeriabtn">Galeria</a></li>
-        <li><a href="#clientes" id="clientesbtn">Clientes</a></li>
-        <li><a href="#contact" id="contactbtn">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+				<p class="pnosotros">
+					Ofrecemos un servicio integral, enfocado en todo tipo de eventos
+					sociales y corporativos, adaptándonos a las necesidades de cada
+					cliente.
+				</p>
 
-  <a name="portada"></a>
-  <section id="portada" class="portada">
-    <div class="slide-contenedor">
-      <div class="direcciones">
-        <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
-        <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
-      </div>
-      <div class="barras">
-        <span class="barra active" onclick="posicionSlide(1)"></span>
-        <span class="barra" onclick="posicionSlide(2)"></span>
-        <span class="barra" onclick="posicionSlide(3)"></span>
-        <span class="barra" onclick="posicionSlide(4)"></span>
-      </div>
-      <div class="imgcontainer">
-        <img class="logoportada" src="img/logosinfondo.png" alt="logo" />
-      </div>
+				<ul class="pnosotros" style="margin-left: 20px">
+					<li>
+						Sociales: Casamientos / Civiles / Cumpleaños / Aniversarios / Etc.
+					</li>
+					<li>
+						Corporativos: Fiestas de Fin de Año, Desayunos, Breaks, Almuerzos,
+						Lanzamientos, Activaciones de Marca, Boxes Fin de Año, Etc.
+					</li>
+				</ul>
+			</div>
+			<span class="spanimgnosotros">
+				<img class="imgnosotros" src="img/imgnosotros.jpg" alt="nos" />
+			</span>
+		</section>
 
-    </div>
+		<hr />
 
-  </section>
-  <a name="nosotros"></a>
-  <section class="nosotros">
+		<a name="catering"></a>
+		<h2 class="cateringtitle">Catering</h2>
+		<section class="gridimg">
+			<div class="griddiv griddivitem1">
+				<h3>Eventos Sociales</h3>
+				<p>
+					Nos gusta festejar y sabemos lo lindo que es agasajar a un invitado.
+					Por eso trabajamos para que en tu evento, vos y tus invitados, se
+					sientan <strong>cuidaddos</strong>
+				</p>
+			</div>
+			<div class="griddiv griddivitem2"></div>
+			<div class="griddiv griddivitem3"></div>
+			<div class="griddiv griddivitem4">
+				<h3>Experiencias Empresariales</h3>
+				<p>
+					Nos alineamos a grandes marcas y empresas para realizar
+					<strong>campañas y activaciones</strong>, respetando al cliente y lo
+					que quiere transmitir. Tenemos el conocimiento de haber trabajado
+					muchos años en agencias sabiendo transitar ese camino juntos para
+					llegar al objetivo.
+				</p>
+			</div>
+			<div class="griddiv griddivitem5">
+				<h3>Locaciones</h3>
+				<p>
+					Tenemos contacto con los mejores <strong>salones</strong> de Buenos
+					Aires y a su vez montamos cocinas en lugares remotos a lo largo de
+					toda la Argentina y Uruguay.
+				</p>
+				<p>
+					Contamos con <strong>venue privado</strong> en San Isidro, a pocos
+					metros de la panamericana, con parrilla, asador, pileta, huerta,
+					parque, ahumador, estacionamiento y mesas para compartir. Apto para
+					trabajos grupales, jornadas corporativas y presentaciones.
+				</p>
+			</div>
+			<div class="griddiv griddivitem6"></div>
+			<div class="griddiv griddivitem7"></div>
+			<div class="griddiv griddivitem8">
+				<h3>
+					Evento <br />
+					"Llave en Mano"
+				</h3>
+				<p>
+					Realizamos eventos integrales de cero. Tenemos alianzas estratégicas
+					con distintos proveedores como para llevar a cabo TODO tu evento.
+					Desde la locación, permisos, DJ, técnica, barras, carpas,
+					ambientación, vajilla,mobiliario y todo tipo de implementos para
+					eventos de alto impacto.
+				</p>
+			</div>
+		</section>
 
+		<a name="galeria"></a>
+		<section class="galeria">
+			<h2 class="galtitle">Galería</h2>
 
-    <div class="nosotrostexto">
-      <h2 class="nosotrostitle">Nosotros</h2>
-      <h1>Somos Caruchef</h1>
-      <p class="pnosotros">Catering especializado en eventos. <br>
-        Ofrecemos un servicio 360, enfocado en clientes corporativos y en eventos sociales.<br>
-        Nuestro diferencial está en el servicio personalizado.<br>
-        El valor agregado es estar siempre a
-        disposición. <br>
-      </p>
+			<div id="index-gallery" class="wrapper-gallery">
+				<div class="gallery-img img1">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img2">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img3">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img4">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img5">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img6">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img7">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img8">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img9">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img10">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img11">
+					<div><a></a></div>
+				</div>
+				<div class="gallery-img img12">
+					<div><a></a></div>
+				</div>
+			</div>
+		</section>
 
-      <p class="pnosotros">Utilizamos materia prima seleccionada de primera calidad y recursos humanos
-        alineados a
-        nuestros
-        valores familiares.<br>
-        En los tiempos de hoy con tanto "fast food" tratamos de crear un producto estético y
-        elaborado, además de rico y saludable.
-      </p>
+		<script src="js/gallery.js"></script>
 
-      <p class="pnosotros">Hacemos relucir nuestro espíritu de empresa familiar. <br> La chef es
-        Caru, nuestra madre y
-        los que le ponemos
-        el
-        cuerpo somos sus hijos Gonzalo y Sebastian, priorizando un ambiente sano y reflejando en
-        nuestra comida la
-        importancia de la energía que uno le transmite cuando cocina y el amor que tenemos hacia la gastronomía.
-      </p>
+		<a name="clientes"></a>
+		<section class="skills">
+			<h2 class="skills-title">Quienes Confiaron en Nosotros</h2>
 
-    </div>
-    <span class="spanimgnosotros">
-      <img class="imgnosotros" src="img/imgnosotros.jpg" alt="nos" />
-    </span>
-  </section>
+			<ul class="skills-list">
+				<li class="skills-skill"><img src="img/marcas/auto clasica.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/campari.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/danone.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/dermaglso.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/JW.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/levis.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/molinos.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/nescafe.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/netflix.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/nike.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/pirelli.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/abinbev.png" /></li>
+				<li class="skills-skill">
+					<img
+						src="img/marcas/hd-monster-energy-logo-png-316255859834prijrejdr.png"
+					/>
+				</li>
+				<li class="skills-skill">
+					<img src="img/marcas/Marca de agua Escorihuela (1).png" />
+				</li>
+				<li class="skills-skill"><img src="img/marcas/mercadolibre.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/red bull.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/unilever.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/ypf.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/Vichy-Logo.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/OIP (1).jpeg" /></li>
+				<li class="skills-skill"><img src="img/marcas/OIP (2).jpeg" /></li>
+				<li class="skills-skill"><img src="img/marcas/OIP (3).jpeg" /></li>
+				<li class="skills-skill">
+					<img src="img/marcas/Banco-Provincia-Neues-Logo.png" />
+				</li>
+				<li class="skills-skill">
+					<img src="img/marcas/Pinterest-Logo.png" />
+				</li>
+				<li class="skills-skill">
+					<img src="img/marcas/Vans-Logo-PNG-Photos.png" />
+				</li>
+				<li class="skills-skill">
+					<img src="img/marcas/Air-Liquide-logo.png" />
+				</li>
+				<li class="skills-skill"><img src="img/marcas/tastemade.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/santander rio.png" /></li>
+			</ul>
+		</section>
 
-  <a name="catering"></a>
-  <h2 class="cateringtitle">Catering</h2>
-  <section class="gridimg">
+		<hr />
 
-    <div class="griddiv griddivitem1">
-      <h3>Eventos Sociales</h3>
-      <p>Nos gusta festejar y sabemos lo lindo que es <strong>agasajar a un invitado.</strong> Por eso hacemos lo
-        posible para que en tu
-        evento, vos y tus invitados, se sientan cuidados. </p>
-    </div>
-    <div class="griddiv griddivitem2"></div>
-    <div class="griddiv griddivitem3"></div>
-    <div class="griddiv griddivitem4">
-      <h3>Experiencias Empresariales</h3>
-      <p>Trabajamos en conjunto con grandes marcas y empresas alineándonos a campañas o activaciones en particular
-        <strong>cuidando al cliente.</strong>
-      </p>
-    </div>
-    <div class="griddiv griddivitem5">
-      <h3>Locaciones</h3>
-      <p>Nuestro equipo está preparado para trabajar en distintos espacios de trabajo. Tenemos contacto con los
-        <strong>mejores
-          salones de Buenos Aires.</strong> A su vez montamos cocinas en lugares que no posean.
-      </p>
-      <p>Contamos con <strong>venue privado</strong> en casa quinta en pleno barrio de La Horqueta, San Isidro, a pocos
-        metros de la
-        panamericana, con parrilla, asador, pileta, huerta, parque, ahumador y mesas para compartir. Apto para trabajos
-        grupales, jornadas y presentaciones. </p>
-    </div>
-    <div class="griddiv griddivitem6"></div>
-    <div class="griddiv griddivitem7"></div>
-    <div class="griddiv griddivitem8">
-      <h3>Evento <br> "Llave en Mano"</h3>
-      <p>Realizamos reuniones sociales y corporativos. Tenemos los proveedores como para dejar al cliente tranquilo de
-        que nos puede dejar a cargo de <strong>TODO para su evento.</strong> Desde la locación, los permisos, el
-        servicio de DJ, técnica, luces, visuales, escenarios, mesas, bebidas, barras, carpas, deco, vajilla, parrillas,
-        hornos y todo tipo de implementos para eventos de pedido especial.
-      </p>
-    </div>
-  </section>
+		<a name="contact"></a>
 
+		<section class="contacts">
+			<div class="contact-body">
+				<h2 class="contact-title">Contactanos</h2>
+				<div class="contact-grid">
+					<div class="contact">
+						<!-- <div class="experience-date">Contact</div> -->
+						<div class="contact-description">
+							<a href="https://www.instagram.com/caruchef/">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="800px"
+									height="800px"
+									viewBox="0 0 32 32"
+									fill="none"
+								>
+									<rect
+										x="2"
+										y="2"
+										width="28"
+										height="28"
+										rx="6"
+										fill="url(#paint0_radial_87_7153)"
+									/>
+									<rect
+										x="2"
+										y="2"
+										width="28"
+										height="28"
+										rx="6"
+										fill="url(#paint1_radial_87_7153)"
+									/>
+									<rect
+										x="2"
+										y="2"
+										width="28"
+										height="28"
+										rx="6"
+										fill="url(#paint2_radial_87_7153)"
+									/>
+									<path
+										d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z"
+										fill="white"
+									/>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z"
+										fill="white"
+									/>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z"
+										fill="white"
+									/>
+									<defs>
+										<radialGradient
+											id="paint0_radial_87_7153"
+											cx="0"
+											cy="0"
+											r="1"
+											gradientUnits="userSpaceOnUse"
+											gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)"
+										>
+											<stop stop-color="#B13589" />
+											<stop offset="0.79309" stop-color="#C62F94" />
+											<stop offset="1" stop-color="#8A3AC8" />
+										</radialGradient>
+										<radialGradient
+											id="paint1_radial_87_7153"
+											cx="0"
+											cy="0"
+											r="1"
+											gradientUnits="userSpaceOnUse"
+											gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)"
+										>
+											<stop stop-color="#E0E8B7" />
+											<stop offset="0.444662" stop-color="#FB8A2E" />
+											<stop offset="0.71474" stop-color="#E2425C" />
+											<stop offset="1" stop-color="#E2425C" stop-opacity="0" />
+										</radialGradient>
+										<radialGradient
+											id="paint2_radial_87_7153"
+											cx="0"
+											cy="0"
+											r="1"
+											gradientUnits="userSpaceOnUse"
+											gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)"
+										>
+											<stop offset="0.156701" stop-color="#406ADC" />
+											<stop offset="0.467799" stop-color="#6A45BE" />
+											<stop offset="1" stop-color="#6A45BE" stop-opacity="0" />
+										</radialGradient>
+									</defs>
+								</svg>
+								<div class="contacttext">Caruchef</div>
+							</a>
+							<br />
 
+							<a href="mailto:hola@caruchef.com"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-envelope"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+									/>
+								</svg>
+								<div class="contacttext">hola@caruchef.com</div>
+							</a>
+							<br />
 
-  <a name="galeria"></a>
-  <section class="galeria">
-    <h2 class="galtitle">Galería</h2>
+							<a href="https://wa.me/+5491170660121 ">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									version="1.1"
+									id="Icons"
+									viewBox="0 0 32 32"
+									xml:space="preserve"
+								>
+									<style type="text/css">
+										.st0 {
+											fill: #ffffff;
+										}
+										.st1 {
+											fill: #3a559f;
+										}
+										.st2 {
+											fill: #f4f4f4;
+										}
+										.st3 {
+											fill: #ff0084;
+										}
+										.st4 {
+											fill: #0063db;
+										}
+										.st5 {
+											fill: #00aced;
+										}
+										.st6 {
+											fill: #ffec06;
+										}
+										.st7 {
+											fill: #ff0000;
+										}
+										.st8 {
+											fill: #25d366;
+										}
+										.st9 {
+											fill: #0088ff;
+										}
+										.st10 {
+											fill: #314358;
+										}
+										.st11 {
+											fill: #ee6996;
+										}
+										.st12 {
+											fill: #01aef3;
+										}
+										.st13 {
+											fill: #fffeff;
+										}
+										.st14 {
+											fill: #f06a35;
+										}
+										.st15 {
+											fill: #00adef;
+										}
+										.st16 {
+											fill: #1769ff;
+										}
+										.st17 {
+											fill: #1ab7ea;
+										}
+										.st18 {
+											fill: #6001d1;
+										}
+										.st19 {
+											fill: #e41214;
+										}
+										.st20 {
+											fill: #05ce78;
+										}
+										.st21 {
+											fill: #7b519c;
+										}
+										.st22 {
+											fill: #ff4500;
+										}
+										.st23 {
+											fill: #00f076;
+										}
+										.st24 {
+											fill: #ffc900;
+										}
+										.st25 {
+											fill: #00d6ff;
+										}
+										.st26 {
+											fill: #ff3a44;
+										}
+										.st27 {
+											fill: #ff6a36;
+										}
+										.st28 {
+											fill: #0061fe;
+										}
+										.st29 {
+											fill: #f7981c;
+										}
+										.st30 {
+											fill: #ee1b22;
+										}
+										.st31 {
+											fill: #ef3561;
+										}
+										.st32 {
+											fill: none;
+											stroke: #ffffff;
+											stroke-width: 2;
+											stroke-miterlimit: 10;
+										}
+										.st33 {
+											fill: #0097d3;
+										}
+										.st34 {
+											fill: #01308a;
+										}
+										.st35 {
+											fill: #019cde;
+										}
+										.st36 {
+											fill: #ffd049;
+										}
+										.st37 {
+											fill: #16a05d;
+										}
+										.st38 {
+											fill: #4486f4;
+										}
+										.st39 {
+											fill: none;
+										}
+										.st40 {
+											fill: #34a853;
+										}
+										.st41 {
+											fill: #4285f4;
+										}
+										.st42 {
+											fill: #fbbc05;
+										}
+										.st43 {
+											fill: #ea4335;
+										}
+									</style>
+									<path
+										class="st8"
+										d="M17,0C8.7,0,2,6.7,2,15c0,3.4,1.1,6.6,3.2,9.2l-2.1,6.4c-0.1,0.4,0,0.8,0.3,1.1C3.5,31.9,3.8,32,4,32  c0.1,0,0.3,0,0.4-0.1l6.9-3.1C13.1,29.6,15,30,17,30c8.3,0,15-6.7,15-15S25.3,0,17,0z"
+									/>
+									<path
+										class="st0"
+										d="M25.7,20.5c-0.4,1.2-1.9,2.2-3.2,2.4C22.2,23,21.9,23,21.5,23c-0.8,0-2-0.2-4.1-1.1c-2.4-1-4.8-3.1-6.7-5.8  L10.7,16C10.1,15.1,9,13.4,9,11.6c0-2.2,1.1-3.3,1.5-3.8c0.5-0.5,1.2-0.8,2-0.8c0.2,0,0.3,0,0.5,0c0.7,0,1.2,0.2,1.7,1.2l0.4,0.8  c0.3,0.8,0.7,1.7,0.8,1.8c0.3,0.6,0.3,1.1,0,1.6c-0.1,0.3-0.3,0.5-0.5,0.7c-0.1,0.2-0.2,0.3-0.3,0.3c-0.1,0.1-0.1,0.1-0.2,0.2  c0.3,0.5,0.9,1.4,1.7,2.1c1.2,1.1,2.1,1.4,2.6,1.6l0,0c0.2-0.2,0.4-0.6,0.7-0.9l0.1-0.2c0.5-0.7,1.3-0.9,2.1-0.6  c0.4,0.2,2.6,1.2,2.6,1.2l0.2,0.1c0.3,0.2,0.7,0.3,0.9,0.7C26.2,18.5,25.9,19.8,25.7,20.5z"
+									/>
+								</svg>
+								<span class="contacttext"> WhatsApp +5491170660121  </span>
+							</a>
+							<br />
 
+							<a href="https://www.facebook.com/profile.php?id=100047312092418">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									width="800px"
+									height="800px"
+									viewBox="0 0 48 48"
+									version="1.1"
+								>
+									<title>Facebook-color</title>
+									<desc>Created with Sketch.</desc>
+									<defs></defs>
+									<g
+										id="Icons"
+										stroke="none"
+										stroke-width="1"
+										fill="none"
+										fill-rule="evenodd"
+									>
+										<g
+											id="Color-"
+											transform="translate(-200.000000, -160.000000)"
+											fill="#4460A0"
+										>
+											<path
+												d="M225.638355,208 L202.649232,208 C201.185673,208 200,206.813592 200,205.350603 L200,162.649211 C200,161.18585 201.185859,160 202.649232,160 L245.350955,160 C246.813955,160 248,161.18585 248,162.649211 L248,205.350603 C248,206.813778 246.813769,208 245.350955,208 L233.119305,208 L233.119305,189.411755 L239.358521,189.411755 L240.292755,182.167586 L233.119305,182.167586 L233.119305,177.542641 C233.119305,175.445287 233.701712,174.01601 236.70929,174.01601 L240.545311,174.014333 L240.545311,167.535091 C239.881886,167.446808 237.604784,167.24957 234.955552,167.24957 C229.424834,167.24957 225.638355,170.625526 225.638355,176.825209 L225.638355,182.167586 L219.383122,182.167586 L219.383122,189.411755 L225.638355,189.411755 L225.638355,208 L225.638355,208 Z"
+												id="Facebook"
+											></path>
+										</g>
+									</g>
+								</svg>
+								<span class="contacttext"> Caruchef </span>
+							</a>
+							<br />
 
+							<a href="https://maps.app.goo.gl/yzVTfiss53gSF5mr6">
+								<img height="20px" src="img/maps.png" alt="maps" />
+								<span class="contacttext">
+									Dirección: Tupac Amaru 851 - Villa Adelina
+								</span>
+							</a>
+							<br />
 
-    <div id="index-gallery" class="wrapper-gallery">
+              <a href="https://maps.app.goo.gl/yzVTfiss53gSF5mr6">
+								<svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 16 16" fill="none"><path fill="#0A66C2" d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/></svg>
+								<span class="contacttext">
+									Caruchef Catering
+								</span>
+							</a>
+							<br />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-      <div class="gallery-img img1">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img2">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img3">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img4">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img5">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img6">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img7">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img8">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img9">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img10">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img11">
-        <div><a></a></div>
-      </div>
-      <div class="gallery-img img12">
-        <div><a></a></div>
-      </div>
+		<a href="https://wa.me/+5491132101213">
+			<img class="wappicon" src="img/wappicon.png" alt="wappicon" />
+		</a>
 
-    </div>
-
-
-  </section>
-
-  <script src="js/gallery.js"></script>
-
-  <a name="clientes"></a>
-  <section class="skills">
-
-    <h2 class="skills-title">Quienes Confiaron en Nosotros</h2>
-
-    <ul class="skills-list">
-      <li class="skills-skill"><img src="img/marcas/auto clasica.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/campari.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/danone.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/dermaglso.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/JW.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/levis.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/molinos.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/nescafe.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/netflix.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/nike.png" /></li>
-      <li class="skills-skill"><img src="img/marcas/pirelli.png" /></li>
-
-    </ul>
-  </section>
-
-  <a name="contact"></a>
-
-  <section class="contacts">
-    <div class="contact-body">
-      <h2 class="contact-title">Contactanos</h2>
-      <div class="contact-grid">
-        <div class="contact">
-          <!-- <div class="experience-date">Contact</div> -->
-          <div class="contact-company">Contact</div>
-          <div class="contact-description">
-
-            <a href="https://www.instagram.com/caruchef/">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
-                viewBox="0 0 16 16">
-                <path
-                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-              </svg>
-              <div class="contacttext"> Caruchef </div>
-            </a>
-            <br>
-
-            <a href="mailto:sebastian@caruchef.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                <path
-                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-              </svg>
-              <div class="contacttext"> sebastian@caruchef.com </div>
-            </a>
-            <br>
-
-            <a href="https://wa.me/+5491132101213"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path
-                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-              </svg>
-              <span class="contacttext"> WhatsApp +5491132101213 </span>
-            </a>
-            <br>
-
-            <a href="https://www.facebook.com/profile.php?id=100047312092418"><svg xmlns="http://www.w3.org/2000/svg"
-                width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                <path
-                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-              </svg>
-              <span class="contacttext"> Caruchef </span>
-            </a>
-            <br>
-
-            <a href="https://g.page/tortugasmall?share">
-              <img height="20px" src="img/maps.png" alt="maps" />
-              <span class="contacttext"> Ubicacion: TOM (Tortugas Open Mall, Pilar, Buenos Aires) </span>
-            </a>
-            <br>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <a href="https://wa.me/+5491132101213">
-    <img class="wappicon" src="img/wappicon.png" alt="wappicon">
-  </a>
-
-
-  <footer id="footer">
-    <div class="container">
-      <p>&copy; CARUCHEF</p>
-    </div>
-  </footer>
-
-</body>
-
+		<footer id="footer">
+			<div class="container">
+				<p>&copy; CARUCHEF</p>
+			</div>
+		</footer>
+	</body>
 </html>

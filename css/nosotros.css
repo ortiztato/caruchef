@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     margin-top: 80px;
     text-align: justify;
+    padding-bottom: 70px;
 }
 
 
@@ -27,7 +28,7 @@
 
 .pnosotros {
     max-width: 500px;
-    margin: 0 auto 14px;
+    margin: 0 0 14px;
     font-weight: 200;
 
 }

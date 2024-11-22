@@ -14,7 +14,8 @@
 }
 
 .contact-body h2 {
-  margin-top: 80px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 
@@ -47,6 +48,14 @@
   font-size: 16px;
   margin-top: 10px;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-description svg {
+  width: 18px;
+  height: 18px;
 }
 
 .contact-description>a {
