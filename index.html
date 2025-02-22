@@ -8,11 +8,18 @@
 			name="google-site-verification"
 			content="aOUpQA9toG6az_QHCVoLKcyAw4u2PxeW5x8Z5DAp6Iw"
 		/>
-		<title>Caruchef</title>
 		<meta
 			name="description"
 			content="Somos un Catering especializado en eventos. Ofrecemos un servicio 360, enfocado en clientes corporativos y en eventos sociales."
 		/>
+		<meta name="keywords" content="Catering, Eventos, Corporativos, Sociales, Servicio 360">
+		<meta name="author" content="Caruchef">
+		<meta property="og:title" content="Caruchef - Catering para Eventos">
+		<meta property="og:description" content="Ofrecemos un servicio 360, enfocado en clientes corporativos y en eventos sociales.">
+		<meta property="og:image" content="/img/carufavicon.png">
+		<meta property="og:url" content="https://www.caruchef.com">
+		<meta name="twitter:card" content="summary_large_image">
+		<title>Caruchef</title>
 		<link rel="icon" type="image/x-icon" href="/img/carufavicon.png" />
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/navbar.css" />
@@ -30,6 +37,9 @@
 		<script defer src="js/app.js"></script>
 		<script defer src="js/carrousel.js"></script>
 		<script defer src="js/scroll.js"></script>
+		<script defer src="js/gallery.js"></script>
+		<link rel="preload" href="css/gallery.css" as="style">
+		<link rel="preload" href="js/gallery.js" as="script">
 	</head>
 
 	<body>
@@ -119,7 +129,7 @@
 				</ul>
 			</div>
 			<span class="spanimgnosotros">
-				<img class="imgnosotros" src="img/imgnosotros.jpg" alt="nos" />
+				<img class="imgnosotros" src="img/imgnosotros.jpg" alt="nos" loading="lazy" />
 			</span>
 		</section>
 
@@ -230,48 +240,49 @@
 			<h2 class="skills-title">Quienes Confiaron en Nosotros</h2>
 
 			<ul class="skills-list">
-				<li class="skills-skill"><img src="img/marcas/auto clasica.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/campari.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/danone.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/dermaglso.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/JW.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/levis.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/molinos.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/nescafe.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/netflix.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/nike.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/pirelli.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/abinbev.png" /></li>
+				<li class="skills-skill"><img src="img/marcas/auto clasica.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/campari.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/danone.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/dermaglso.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/JW.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/levis.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/molinos.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/nescafe.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/netflix.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/nike.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/pirelli.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/abinbev.png" loading="lazy" /></li>
 				<li class="skills-skill">
 					<img
 						src="img/marcas/hd-monster-energy-logo-png-316255859834prijrejdr.png"
+						loading="lazy"
 					/>
 				</li>
 				<li class="skills-skill">
-					<img src="img/marcas/Marca de agua Escorihuela (1).png" />
+					<img src="img/marcas/Marca de agua Escorihuela (1).png" loading="lazy" />
 				</li>
-				<li class="skills-skill"><img src="img/marcas/mercadolibre.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/red bull.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/unilever.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/ypf.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/Vichy-Logo.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/OIP (1).jpeg" /></li>
-				<li class="skills-skill"><img src="img/marcas/OIP (2).jpeg" /></li>
-				<li class="skills-skill"><img src="img/marcas/OIP (3).jpeg" /></li>
+				<li class="skills-skill"><img src="img/marcas/mercadolibre.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/red bull.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/unilever.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/ypf.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/Vichy-Logo.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/OIP (1).jpeg" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/OIP (2).jpeg" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/OIP (3).jpeg" loading="lazy" /></li>
 				<li class="skills-skill">
-					<img src="img/marcas/Banco-Provincia-Neues-Logo.png" />
-				</li>
-				<li class="skills-skill">
-					<img src="img/marcas/Pinterest-Logo.png" />
+					<img src="img/marcas/Banco-Provincia-Neues-Logo.png" loading="lazy" />
 				</li>
 				<li class="skills-skill">
-					<img src="img/marcas/Vans-Logo-PNG-Photos.png" />
+					<img src="img/marcas/Pinterest-Logo.png" loading="lazy" />
 				</li>
 				<li class="skills-skill">
-					<img src="img/marcas/Air-Liquide-logo.png" />
+					<img src="img/marcas/Vans-Logo-PNG-Photos.png" loading="lazy" />
 				</li>
-				<li class="skills-skill"><img src="img/marcas/tastemade.png" /></li>
-				<li class="skills-skill"><img src="img/marcas/santander rio.png" /></li>
+				<li class="skills-skill">
+					<img src="img/marcas/Air-Liquide-logo.png" loading="lazy" />
+				</li>
+				<li class="skills-skill"><img src="img/marcas/tastemade.png" loading="lazy" /></li>
+				<li class="skills-skill"><img src="img/marcas/santander rio.png" loading="lazy" /></li>
 			</ul>
 		</section>
 
