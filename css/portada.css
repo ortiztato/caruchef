@@ -25,7 +25,7 @@
 .logoportada {
     object-fit: contain;
     width: 70vw;
-
+    max-width: 650px;
 }
 
 .portadatitulo {
